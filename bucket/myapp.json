@@ -6,7 +6,7 @@
   "architecture": {
     "64bit": {
       "url": "https://raw.githubusercontent.com/lora123456/scoop/main/myapp-1.0.0-windows-x64.zip",
-      "hash": "sha256:1AD069E29159BEAC7F28EABC2319548C7E35EDD6E523AD17783CC67AEE1BE51B"
+      "hash": "sha256:3BA3E953E8BC0E31B5211270FBD31C56030B7E9BECB0360B26766ABFB7E7044C"
     }
   },
   "extract_dir": ".",
