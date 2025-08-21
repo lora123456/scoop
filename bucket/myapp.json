@@ -6,7 +6,7 @@
   "architecture": {
     "64bit": {
       "url": "https://raw.githubusercontent.com/lora123456/scoop/main/myapp-1.0.0-windows-x64.zip",
-      "hash": "sha256:1ED2E1B718691EF7265F532FCA44CF13C3734F2BE6DFD50E0BA4687BBE9AF6E8"
+      "hash": "sha256:PASTE_REAL_SHA256_HERE"
     }
   },
   "extract_dir": "myapp-1.0.0",
@@ -15,9 +15,9 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://raw.githubusercontent.com/lora123456/scoop/main/myapp-\-windows-x64.zip"
+        "url": "https://raw.githubusercontent.com/lora123456/scoop/main/myapp-$version-windows-x64.zip"
       }
     },
-    "extract_dir": "myapp-\"
+    "extract_dir": "myapp-$version"
   }
 }
