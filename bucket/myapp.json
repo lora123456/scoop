@@ -1,0 +1,24 @@
+﻿{
+  "version": "1.0.0",
+  "description": "MyApp — приклад застосунку для Scoop",
+  "homepage": "https://example.com/myapp",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://example.com/downloads/myapp-1.0.0-windows-x64.zip",
+      "hash": "sha256:__PUT_REAL_SHA256_HERE__"
+    }
+  },
+  "extract_dir": "myapp-1.0.0",
+  "bin": "myapp.exe",
+  "persist": ["data"],
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/OWNER/REPO/releases/download/v$version/myapp-$version-windows-x64.zip"
+      }
+    },
+    "extract_dir": "myapp-$version"
+  }
+}
