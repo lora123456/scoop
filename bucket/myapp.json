@@ -19,5 +19,12 @@
                                                       }
                                         },
                        "extract_dir":  "myapp-$version"
-                   }
+                   },
+    "shortcuts":  [
+                      "myapp.cmd",
+                      "MyApp"
+                  ],
+    "persist":  [
+                    "data"
+                ]
 }
