@@ -1,23 +1,10 @@
-﻿{
-  "version": "1.0.0",
-  "description": "MyApp — тестовий пакунок для Scoop",
-  "homepage": "https://github.com/lora123456/scoop",
-  "license": "MIT",
+"extract_dir": "myapp-1.0.0",
+"bin": "myapp.cmd",
+"autoupdate": {
   "architecture": {
     "64bit": {
-      "url": "https://raw.githubusercontent.com/lora123456/scoop/main/myapp-1.0.0-windows-x64.zip",
-      "hash": "sha256:3BA3E953E8BC0E31B5211270FBD31C56030B7E9BECB0360B26766ABFB7E7044C"
+      "url": "https://raw.githubusercontent.com/lora123456/scoop/main/myapp-$version-windows-x64.zip"
     }
   },
-  "extract_dir": ".",
-  "bin": "myapp.cmd",
-  "checkver": "github",
-  "autoupdate": {
-    "architecture": {
-      "64bit": {
-        "url": "https://raw.githubusercontent.com/lora123456/scoop/main/myapp-$version-windows-x64.zip"
-      }
-    },
-    "extract_dir": "."
-  }
+  "extract_dir": "myapp-$version"
 }
