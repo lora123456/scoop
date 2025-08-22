@@ -1,32 +1,34 @@
 ﻿{
-    "version":  "1.0.1",
+    "version":  "1.0.2",
     "description":  "MyApp вЂ” С‚РµСЃС‚РѕРІРёР№ РїР°РєСѓРЅРѕРє РґР»СЏ Scoop",
     "homepage":  "https://github.com/lora123456/scoop",
     "license":  "MIT",
     "architecture":  {
                          "64bit":  {
-                                       "url":  "https://raw.githubusercontent.com/lora123456/scoop/main/myapp-1.0.1-windows-x64.zip",
-                                       "hash":  "sha256:3BC3DC3EFD49C70D600564D7291FC983B03E4D04123384C410762F0EDADFE0A4"
+                                       "url":  "https://github.com/lora123456/scoop/releases/download/v1.0.2/myapp-1.0.2-windows-x64.zip",
+                                       "hash":  "sha256:16287309365D001400D2B5A568928F3010CF7D28BCFF9405C6D54386906CE753"
                                    }
                      },
-    "extract_dir":  "myapp-1.0.1",
+    "extract_dir":  "myapp-1.0.2",
     "bin":  "myapp.cmd",
     "shortcuts":  [
-                      [
-                          "myapp.cmd",
-                          "MyApp"
-                      ]
+                      "myapp.cmd",
+                      "MyApp",
+                      "",
+                      "myapp.ico"
                   ],
     "persist":  [
                     "data"
                 ],
-    "checkver":  "github",
+    "checkver":  {
+                     "github":  "lora123456/scoop"
+                 },
     "autoupdate":  {
                        "architecture":  {
                                             "64bit":  {
-                                                          "url":  "https://raw.githubusercontent.com/lora123456/scoop/main/myapp-$version-windows-x64.zip"
+                                                          "url":  "https://github.com/lora123456/scoop/releases/download/v$version/myapp-$\u000bersion-windows-x64.zip"
                                                       }
                                         },
-                       "extract_dir":  "myapp-$version"
+                       "extract_dir":  "myapp-$\u000bersion"
                    }
 }
